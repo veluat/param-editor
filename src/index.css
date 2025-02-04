@@ -1,0 +1,58 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+}
+
+.app-title {
+    text-align: center;
+}
+
+.param-editor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.param-label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.param-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.param-label, .param-field {
+    flex: 1;
+    min-width: 100px;
+}
+
+.param-field {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.get-model-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+
+.model-output {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
