@@ -14,7 +14,7 @@ Param Editor Test — это простой React-компонент, котор
 ## Установка
 1. Склонируйте репозиторий:
    ```bash
-   https://github.com/veluat/param-editor.git
+   https://github.com/veluat/param-editor-test.git
    ```
    
 2. Перейдите в директорию проекта:
